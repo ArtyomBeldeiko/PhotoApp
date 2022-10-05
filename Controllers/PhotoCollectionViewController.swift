@@ -30,7 +30,6 @@ class PhotoCollectionViewController: UICollectionViewController {
         
     }
     
-    
     // MARK: UICollectionViewDataSource
     
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -93,6 +92,5 @@ extension PhotoCollectionViewController: UICollectionViewDelegateFlowLayout {
         
         return sectionInsets.left
     }
-    
     
 }
